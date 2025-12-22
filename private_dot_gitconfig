@@ -1,0 +1,15 @@
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+[commit]
+	gpgsign = true
+[tag]
+	gpgsign = true
+[user]
+  	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMrv8XXsk7qHNUkXdeYrKHxcTY4swiw3fy6VKxR3ERGv
+  	name = Aleksi Vuorjoki
+	email = aleksi.vuorjoki@reaktor.com
+
+[alias]
+  fixup = "!git log -n 50 --pretty=format:'%h %s' --no-merges | fzf | cut -c -7 | xargs -o git commit --fixup"
