@@ -100,3 +100,5 @@ go "github.com/cweill/gotests/gotests"
 go "github.com/josharian/impl"
 go "github.com/pdfcpu/pdfcpu/cmd/pdfcpu"
 go "honnef.co/go/tools/cmd/staticcheck"
+# Added to replace nvm as node version manager 
+brew "mise"
