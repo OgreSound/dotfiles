@@ -1,0 +1,130 @@
+[profile ytl-federation]
+region = eu-north-1
+
+[profile tela-prod]
+region = eu-north-1
+
+[profile digabi]
+region = eu-north-1
+source_profile = ytl-federation
+mfa_serial = arn:aws:iam::970465199095:mfa/aleksi.vuorjoki@reaktor.com
+role_arn = arn:aws:iam::863419159770:role/Admin
+
+[profile digabi-dev]
+region = eu-north-1
+source_profile = ytl-federation
+mfa_serial = arn:aws:iam::970465199095:mfa/aleksi.vuorjoki@reaktor.com
+role_arn = arn:aws:iam::863419159770:role/Developer
+
+[profile ytl-abitti-test]
+region = eu-north-1
+source_profile = ytl-federation
+mfa_serial = arn:aws:iam::970465199095:mfa/aleksi.vuorjoki@reaktor.com
+role_arn = arn:aws:iam::044235078644:role/Admin
+
+[profile ytl-abitti-test-dev]
+region = eu-north-1
+source_profile = ytl-federation
+mfa_serial = arn:aws:iam::970465199095:mfa/aleksi.vuorjoki@reaktor.com
+role_arn = arn:aws:iam::044235078644:role/Developer
+
+[profile ytl-abitti-prod]
+region = eu-north-1
+source_profile = ytl-federation
+mfa_serial = arn:aws:iam::970465199095:mfa/aleksi.vuorjoki@reaktor.com
+role_arn = arn:aws:iam::128059457614:role/Admin
+
+[profile ytl-abitti-prod-dev]
+region = eu-north-1
+source_profile = ytl-federation
+mfa_serial = arn:aws:iam::970465199095:mfa/aleksi.vuorjoki@reaktor.com
+role_arn = arn:aws:iam::128059457614:role/Developer
+
+[profile ytl-yo-test]
+region = eu-north-1
+source_profile = ytl-federation
+mfa_serial = arn:aws:iam::970465199095:mfa/aleksi.vuorjoki@reaktor.com
+role_arn = arn:aws:iam::495184567055:role/Admin
+
+[profile ytl-yo-test-dev]
+region = eu-north-1
+source_profile = ytl-federation
+mfa_serial = arn:aws:iam::970465199095:mfa/aleksi.vuorjoki@reaktor.com
+role_arn = arn:aws:iam::495184567055:role/Developer
+
+[profile ytl-yo-prod]
+region = eu-north-1
+source_profile = ytl-federation
+mfa_serial = arn:aws:iam::970465199095:mfa/aleksi.vuorjoki@reaktor.com
+role_arn = arn:aws:iam::263236757160:role/Admin
+
+[profile ytl-yo-prod-dev]
+region = eu-north-1
+source_profile = ytl-federation
+mfa_serial = arn:aws:iam::970465199095:mfa/aleksi.vuorjoki@reaktor.com
+role_arn = arn:aws:iam::263236757160:role/Developer
+
+[profile ytl-tela-test]
+region = eu-north-1
+source_profile = ytl-federation
+mfa_serial = arn:aws:iam::970465199095:mfa/aleksi.vuorjoki@reaktor.com
+role_arn = arn:aws:iam::087002496788:role/Admin
+
+
+[profile ytl-tela-test-dev]
+region = eu-north-1
+source_profile = ytl-federation
+mfa_serial = arn:aws:iam::970465199095:mfa/aleksi.vuorjoki@reaktor.com
+role_arn = arn:aws:iam::087002496788:role/Developer
+
+[profile ytl-tela-prod]
+region = eu-north-1
+source_profile = tela-prod
+mfa_serial = arn:aws:iam::952025891427:mfa/aleksi.vuorjoki@reaktor.com
+role_arn = arn:aws:iam::952025891427:role/Admin
+
+[profile ytl-tela-prod-dev]
+region = eu-north-1
+source_profile = tela-prod
+mfa_serial = arn:aws:iam::952025891427:mfa/aleksi.vuorjoki@reaktor.com
+role_arn = arn:aws:iam::952025891427:role/Admin
+
+[profile ytl-asiointi-test]
+region = eu-north-1
+source_profile = ytl-federation
+mfa_serial = arn:aws:iam::970465199095:mfa/aleksi.vuorjoki@reaktor.com
+role_arn = arn:aws:iam::713980742634:role/Admin
+
+[profile ytl-asiointi-test-dev]
+region = eu-north-1
+source_profile = ytl-federation
+mfa_serial = arn:aws:iam::970465199095:mfa/aleksi.vuorjoki@reaktor.com
+role_arn = arn:aws:iam::713980742634:role/Developer
+
+[profile ytl-asiointi-prod]
+region = eu-north-1
+source_profile = ytl-federation
+mfa_serial = arn:aws:iam::970465199095:mfa/aleksi.vuorjoki@reaktor.com
+role_arn = arn:aws:iam::066144913880:role/Admin
+
+[profile ytl-asiointi-prod-dev]
+region = eu-north-1
+source_profile = ytl-federation
+mfa_serial = arn:aws:iam::970465199095:mfa/aleksi.vuorjoki@reaktor.com
+role_arn = arn:aws:iam::066144913880:role/Developer
+
+[profile ytl-vpn]
+region = eu-north-1
+source_profile = ytl-federation
+mfa_serial = arn:aws:iam::970465199095:mfa/aleksi.vuorjoki@reaktor.com
+# Developer arvon voi korvata arvolla Admin jos olet nimetty vpn admin
+role_arn = arn:aws:iam::440181210948:role/Admin
+
+[profile ytl-digabi2-ecr]
+region = eu-north-1
+source_profile = ytl-federation
+mfa_serial = arn:aws:iam::970465199095:mfa/aleksi.vuorjoki@reaktor.com
+role_arn = arn:aws:iam::863419159770:role/UtilityIamRoleStack-AbittiEcrCredentialsRoleD9AB446-1KnxLaUUYPxG
+[default]
+region = eu-north-1
+
