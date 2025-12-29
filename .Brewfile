@@ -103,3 +103,5 @@ go "honnef.co/go/tools/cmd/staticcheck"
 # Added to replace nvm as node version manager 
 brew "mise"
 cask "visual-studio-code"
+cask "datagrip"
+cask "alt-tab"
