@@ -1,0 +1,2 @@
+# in .zshrc We set HOMEBREW_BUNDLE_FILE to point to chezmoi folder so no need to copy it to user root
+.Brewfile
