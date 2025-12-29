@@ -2,5 +2,5 @@
 #!/bin/zsh
 # .Brewfile hash: {{ include ".Brewfile" | sha256sum }}
 echo "Installing Homebrew packages from .Brewfile..."
-brew bundle --file="{{ .chezmoi.sourceDir }}/.Brewfile"
+brew bundle install -v --file="{{ .chezmoi.sourceDir }}/.Brewfile"
 {{ end -}}
